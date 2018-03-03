@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=kwin-hide-max-borders
+Comment= Hide the border of windows maximized with Kwin (KDE)
+Icon=preferences-system-windows-script-test
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+
+X-KDE-PluginInfo-Author=Michel Martinez
+X-KDE-PluginInfo-Email=michelsm1990@gmail.com
+X-KDE-PluginInfo-Name=kwin-hide-max-borders
+X-KDE-PluginInfo-Version=1.0
+
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-ServiceTypes=KWin/Script,KCModule
+
+X-KDE-Library=kwin/effects/configs/kcm_kwin4_genericscripted
+X-KDE-PluginKeyword=kwin-hide-max-borders
+X-KDE-ParentComponents=kwin-hide-max-borders
+
+Type=Service
